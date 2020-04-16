@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2ActivityStudents">
+
+
+    <TextView
+        android:id="@+id/main2_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="данные студента (Журнал)"
+        android:paddingTop="14dp"
+        android:paddingBottom="14dp"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:background="#D50000"
+        android:textSize="20sp" />
+
+
+
+    <EditText
+        android:id="@+id/main2_edit1"
+        android:layout_width="match_parent"
+        android:textColor="@android:color/black"
+        android:layout_height="wrap_content"
+        android:hint="                                      ФИО студента"
+        android:paddingBottom="10dp"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/main2_age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/main2_edit2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="                                        группа"
+        android:textColor="@android:color/black"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/main2_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/main2_edit3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="                             Phone number"
+        android:paddingBottom="15dp"
+        android:textColor="@android:color/black"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/main2_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/main2_edit4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:hint="                                   Дата рождения"
+        android:paddingBottom="10dp"
+        android:textColor="@android:color/black"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/main2_course"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:paddingTop="10dp"
+        android:textStyle="bold"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/main2_edit5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="                                          курс"
+        android:textColor="@android:color/black"
+        android:textSize="15sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#D50000"
+
+        android:paddingTop="100dp">
+
+
+
+
+        <Button
+            android:id="@+id/main_2_Close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="Close"
+            android:text="  SAVE  "
+            android:textAllCaps="false"
+            android:textColor="@android:color/black"
+            android:textSize="15sp" />
+
+
+
+        <Button
+            android:id="@+id/main_2_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text=" CLOSE "
+
+
+
+            android:textAllCaps="false"
+            android:textColor="@android:color/black"
+            android:textSize="15sp" />
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#D50000"
+
+        android:paddingTop="100dp"/>
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
